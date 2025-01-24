@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogsite</title>
+    <link rel="stylesheet" href="blogsite.css">
+    <link rel="stylesheet" href="blogsite.js">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">HESA</a>
+            <ul class="nav-links">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <img src="img/mini_magick20241114-37828-t27l8r.jpg" alt="Hero Background" class="hero-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+        </div>
+    </section>
+
+
+    <div class="container">
+        <div class="blog-grid">
+            <article class="blog-card">
+                <div class="card-image-container">
+                    <img src="img/mini_magick20241114-37828-1wrs2f.jpg" alt="Blog Post" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Welcome to HESA</h2>
+                    <p class="card-excerpt">Where we explore the fascinating world of health science!</p>
+                    <div class="card-meta">
+                        <span class="meta-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            Mar 15, 2024
+                        </span>
+                        <span class="meta-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            5 min read
+                        </span>
+                    </div>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="card-image-container">
+                    <img src="img/mini_magick20241114-37828-1wrs2f.jpg" alt="Blog Post" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Welcome to HESA</h2>
+                    <p class="card-excerpt">Where we explore the fascinating world of health science!</p>
+                    <div class="card-meta">
+                        <span class="meta-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            Mar 15, 2024
+                        </span>
+                        <span class="meta-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            5 min read
+                        </span>
+                    </div>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+            
+            <article class="blog-card">
+                <div class="card-image-container">
+                    <img src="img/mini_magick20241114-37828-1wrs2f.jpg" alt="Blog Post" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Welcome to HESA</h2>
+                    <p class="card-excerpt">Where we explore the fascinating world of health science!</p>
+                    <div class="card-meta">
+                        <span class="meta-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            Mar 15, 2024
+                        </span>
+                        <span class="meta-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            5 min read
+                        </span>
+                    </div>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <div class="card-image-container">
+                    <img src="img/mini_magick20241114-37828-siuwci.jpg" alt="Blog Post" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">From groundbreaking research to practical tips for better living, our mission is to bridge the gap between science and everyday life.</h2>
+                    <p class="card-excerpt">Join us as we uncover the secrets to a healthier, happier future—one post at a time."</p>
+                    <div class="card-meta">
+                        <span class="meta-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            Mar 12, 2024
+                        </span>
+                        <span class="meta-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            8 min read
+                        </span>
+                    </div>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <div class="card-image-container">
+                    <img src="img/mini_magick20241114-37828-5nhbbd.jpg" alt="Blog Post" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Modern JavaScript Features</h2>
+                    <p class="card-excerpt">Explore the latest JavaScript features and how they can improve your code. From ES6+ to modern best practices.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            Mar 10, 2024
+                        </span>
+                        <span class="meta-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            6 min read
+                        </span>
+                    </div>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+        </div>
+    </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <!-- Quick Links Section -->
+            <div class="footer-section">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Student Resources</a></li>
+                <li><a href="#">Faculty Directory</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                  <li><a href="#">Library</a></li>
+                  <li><a href="#">Clinical Skills Lab</a></li>
+                  <li><a href="#">Research Centers</a></li>
+                  <li><a href="#">Academic Calendar</a></li>
+                  <li><a href="#">Campus Safety</a></li>
+                </ul>
+              </div>
+
+
+              <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul class="contact-info">
+                  <li>📞 (555) 123-4567</li>
+                  <li>📧 info@healthscience.edu</li>
+                  <li>📍 123 Medical Center Drive<br>Healthcare City, HC 12345</li>
+                </ul>
+              </div>
+      
+              <!-- Social Media Section -->
+              <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                  <a href="#">📱</a>
+                  <a href="#">🐦</a>
+                  <a href="#">📷</a>
+                  <a href="#">▶️</a>
+                </div>
+                <div class="newsletter">
+                  <h4>Stay Updated</h4>
+                  <input type="email" placeholder="Enter your email">
+                  <button>Subscribe</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>
+                  © 2024 Health Science College. All rights reserved.
+                </div>
+                <div>
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">Terms of Use</a>
+                  <a href="#">Accessibility</a>
+                </div>
+              </div>
+            </div>
+          </footer>
+</body>
+</html>
